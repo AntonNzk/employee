@@ -15,10 +15,10 @@ public class ManageEmployee {
 
         Session session = factory.getCurrentSession();
 
-        Employee emp0 = new Employee("John", "Doe", 1000);
-        Employee emp1 = new Employee("Richard", "Roe", 2000);
-        Employee emp2 = new Employee("Joe", "Bloggs", 3000);
-        Employee emp3= new Employee("Another", "Everyman", 4000);
+        Employee emp0 = new Employee("John", "Petrov", 1000);
+        Employee emp1 = new Employee("Richard", "Ivanov", 2000);
+        Employee emp2 = new Employee("Joe", "Stepanov", 3000);
+        Employee emp3= new Employee("Another", "Man", 4000);
 
         try {
 
